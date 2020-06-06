@@ -18,6 +18,7 @@ class AlertaRelativo {
 }
 
 class AlertaAbsoluto {
+  teste
   + ajustar(hor)
   constructor(desc, hor)
 }
