@@ -17,6 +17,7 @@ class AlertaRelativo {
   + string: getTempoRestante()
 }
 
+'Comentário 2
 class AlertaAbsoluto {
   + ajustar(hor)
   constructor(desc, hor)
