@@ -2,6 +2,10 @@
 
 top to bottom direction
 
+class AlertaFinal {
+  + ajustar(horFinal)
+}
+
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
@@ -24,5 +28,6 @@ class AlertaAbsoluto {
 
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
+Alerta <|-- AlertaFinal
 
 @enduml
