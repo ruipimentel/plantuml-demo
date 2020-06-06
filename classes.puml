@@ -2,6 +2,8 @@
 
 top to bottom direction
 
+class classe teste
+
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
