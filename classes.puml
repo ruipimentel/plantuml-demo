@@ -2,6 +2,7 @@
 
 top to bottom direction
 
+'Comentário 1
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
@@ -17,6 +18,7 @@ class AlertaRelativo {
   + string: getTempoRestante()
 }
 
+'Comentário 2
 class AlertaAbsoluto {
   + ajustar(hor)
   constructor(desc, hor)
