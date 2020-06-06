@@ -1,17 +1,34 @@
 @startuml "Classes"
 
-left to right direction
+top to bottom direction
 
-note "<b><u>TO DO</u></b>: Hierarquizar tipos de alertas" as N1
+class AlertaFinal {
+  + ajustar(horFinal)
+}
 
-class Alerta {
+class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
+  + boolean absoluto
   + string descricao
-  constructor(desc, hor)
-  + ajustar(hor)
   + cancelar()
+  + ajustar(hor)
+  constructor(desc, hor)
+  constructor(desc, horExpr)
+  + ajustar(horExpr)
+  + string: getTempoRestante()
 }
-note left of Alerta : Alerta programado.\n\nPossui uma descrição que é\nexibida com a conclusão do\ntimer.
+note left of Alerta : Alerta programado.\n\nPossui uma descrição que é\nexibida com a conclusão do\ntimer, na forma de um alerta.
+
+class AlertaRelativo {
+}
+
+
+class teste {
+}
+
+Alerta <|-- AlertaRelativo
+Alerta <|-- AlertaAbsoluto
+Alerta <|-- AlertaFinal
 
 @enduml
