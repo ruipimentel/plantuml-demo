@@ -26,6 +26,9 @@ class AlertaAbsoluto {
   constructor(desc, hor)
 }
 
+class teste {
+}
+
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
 Alerta <|-- AlertaFinal
