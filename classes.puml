@@ -27,4 +27,6 @@ class AlertaAbsoluto {
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
 
+class Teste01
+
 @enduml
