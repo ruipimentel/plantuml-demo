@@ -2,6 +2,10 @@
 
 top to bottom direction
 
+class Novo{
+  'não faz nada
+}
+
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
