@@ -17,6 +17,7 @@ class AlertaRelativo {
   constructor(desc, horExpr)
   + ajustar(horExpr)
   + string: getTempoRestante()
+  + integer: getTempoRestante()
 }
 
 Alerta <|-- AlertaRelativo
