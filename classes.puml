@@ -2,6 +2,9 @@
 
 top to bottom direction
 
+class Pessoa {
+}
+
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
