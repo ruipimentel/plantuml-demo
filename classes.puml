@@ -26,6 +26,11 @@ class AlertaAbsoluto {
   constructor(desc, hor)
 }
 
+class ClasseNoFim{
+  + ajustar(hor)
+}
+
+
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
 
