@@ -9,7 +9,7 @@ class Teste {
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
-  + boolean absoluto
+  + decimal absoluto
   + string descricao
   + cancelar()
   + ajustar(horString)
