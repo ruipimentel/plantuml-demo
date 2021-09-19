@@ -12,7 +12,7 @@ class Alerta <<abstract>> {
   + boolean absoluto
   + string descricao
   + cancelar()
-  + ajustar(hor)
+  + ajustar(horString)
 }
 note left of Alerta : Alerta programado.\n\nPossui uma descrição que é\nexibida com a conclusão do\ntimer, na forma de um alerta.
 
