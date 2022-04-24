@@ -7,8 +7,8 @@ class NovaClasse{
 }
 
 class Alerta <<abstract>> {
-  constructor(desc, hor)
-  + ajustar(hor)
+constructor(desc, hor)
+  + ajustar(horStr)
   - number timerHandler
   + Date horario
   + boolean absoluto
